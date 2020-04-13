@@ -10,7 +10,7 @@ $tool.get('https://dict.youdao.com/infoline/style/cardList?mode=publish&client=m
     let isAM = date.getHours() < 12 ? true : false;
     let title = 'Clock' + (isAM ? ' in' : ' out') + (isAM ? ' ☀️' : ' 🌙');
     let subtitle = '';
-    let content = 'dingtalk://dingtalkclient/page/link?url=https://www.wbconnie.com//';
+    let content = 'https://www.wbconnie.com//';
     if (!error) {
         if (obj && obj.length > 1) {
             let yi = obj[1];
